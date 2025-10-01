@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-family: 'Orbitron';
+    color: black;
+}
+
+nav{
+    background-color: #D9D9D9;
+    padding: 12px;
+}
+.primeira-pergunta img{
+    width: 600px;
+    border-radius: 8px;
+    margin: 14px;
+    display: block;
+    padding: 12px;
+}
+.questoes{
+    color: white;
+    font-family: 'Roboto';
+}
+.questoes h2{
+    color: white;
+    font-family: 'Roboto';
+}
+.botao-proximo{
+    font-family: 'Roboto';
+    font-size: 22px;
+    display: block;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #d9d9d9;
+    padding: 10px 12px;
+    cursor: pointer;
+    width: 150px;
+    transition: background-color 0.5s, border-color 0.5s;
+}
+.botao-proximo:hover{
+    background-color: #c8c8c8; 
+    border-color: #7f8083;
+}
